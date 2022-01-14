@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Pagination from './Pagination';
+
+<Meta title="Example/Pagination" component={Pagination} />
+
+# Example Component Demo
+
+## Paginationr props
+<Props of={Pagination} />
+
+## Description
+
+`Pagination` component enables the user to select a specific page from a range of pages.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Pagination">
+    {(args) => <Pagination {...args} />}
+  </Story>
+</Canvas>

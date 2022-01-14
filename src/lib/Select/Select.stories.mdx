@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Select from './Select';
+
+<Meta title="Example/Select" component={Select} />
+
+# Example Component Demo
+
+## Select props
+<Props of={Select} />
+
+## Description
+
+`Select` component to select value from options.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Select">
+    {(args) => <Select {...args} />}
+  </Story>
+</Canvas>

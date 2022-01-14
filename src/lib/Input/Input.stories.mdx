@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Input from './Input';
+
+<Meta title="Example/Input" component={Input} />
+
+# Example Component Demo
+
+## Inputr props
+<Props of={Input} />
+
+## Description
+
+`Input` is widget for getting the user input is a text field. Keyboard and mouse can be used for providing or changing data.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Input">
+    {(args) => <Input {...args} />}
+  </Story>
+</Canvas>

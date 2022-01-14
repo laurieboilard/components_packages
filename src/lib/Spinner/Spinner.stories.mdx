@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Spinner from './Spinner';
+
+<Meta title="Example/Spinner" component={Spinner} />
+
+# Example Component Demo
+
+## Spinner props
+<Props of={Spinner} />
+
+## Description
+
+`Spinner` for displaying loading state of a page or a section.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Spinner">
+    {(args) => <Spinner {...args} />}
+  </Story>
+</Canvas>

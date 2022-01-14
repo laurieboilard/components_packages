@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Progress from './Progress';
+
+<Meta title="Example/Progress" component={Progress} />
+
+# Example Component Demo
+
+## Progress props
+<Props of={Progress} />
+
+## Description
+
+`Progress` display the current progress of an operation flow..
+
+## Demo
+
+<Canvas>
+  <Story name="Example Progress">
+    {(args) => <Progress {...args} />}
+  </Story>
+</Canvas>
