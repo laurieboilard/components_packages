@@ -114,14 +114,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user/components_packages.git"
+    "url": "git+https://github.com/laurieboilard/components_packages.git"
   },
   "author": "@lboilard @allyciapaquet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/user/components_packages/issues"
+    "url": "https://github.com/laurieboilard/components_packages/issues"
   },
-  "homepage": "https://github.com/user/components_packages#readme",
+  "homepage": "https://github.com/laurieboilard/components_packages#readme",
   "keywords": [
     "packages"
   ]
